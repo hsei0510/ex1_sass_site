@@ -133,7 +133,7 @@ table {
       color: $fontColorBasic;
       border-bottom: 1px solid $borderColorPrimary;
       &.hover { /*script로 사용할 class 추가*/
-        //background: #fff; //$tableSellBg;
+        //background: $tableSellBg;
       }
       &:nth-child(3) {
         text-align: left;
