@@ -44,7 +44,7 @@ a:hover {
 }
 
 .gbtn.right {
-  margin-left: 50px;
+  float: right;
 }
 
 .box {
@@ -167,7 +167,7 @@ table + .gbtn {
 
 table.common-table {
   width: 100%;
-  margin: 50px auto;
+  margin: 50px auto 0;
   border-collapse: collapse;
   text-align: center;
 }
