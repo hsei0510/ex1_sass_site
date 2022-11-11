@@ -208,6 +208,14 @@ table.common-table tr:not(:first-child):hover {
   background: #fcfadc;
 }
 
+#map {
+  margin-top: 50px;
+}
+
+#map .marker-title {
+  color: red;
+}
+
 #wrap {
   width: 1320px;
   margin: 0 auto;

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // general ui
 .gbtn {
   display: inline-block;
@@ -17,23 +16,3 @@
     float: right;
   }
 }
-=======
-// general ui
-.gbtn {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0 20px;
-  height: 50px;
-  line-height: 50px;
-  background: $gbtnColor;
-  color: white;
-  border: 1px solid $gbtnColor;
-  &:hover {
-    color: $gbtnColor;
-    background: white;
-  }
-  &.right {
-    float: right;
-  }
-}
->>>>>>> 90a68c32036f7734b3c67bc4b7fb32ea193d2d70
