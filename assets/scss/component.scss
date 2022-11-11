@@ -133,7 +133,7 @@ table {
       color: $fontColorBasic;
       border-bottom: 1px solid $borderColorPrimary;
       &.hover { /*script로 사용할 class 추가*/
-        background: $tableSellBg;
+        //background: #fff; //$tableSellBg;
       }
       &:nth-child(3) {
         text-align: left;
@@ -142,11 +142,12 @@ table {
     tr {
       /*첫번째 테이블 속성의 타이틀 영역을 제외한 hover 효과 주기*/
       &:not(:first-child):hover {
-        background: $tableSellBg;
+        background-color: $tableSellBg;
+        font-size: 20px;
       }
-      // &:nth-child(odd) {
-      //   background: #f2f2f2;
-      // }
+      &:nth-child(odd) {
+        // background: $tableSellBg;
+      }
     }
   }
 }

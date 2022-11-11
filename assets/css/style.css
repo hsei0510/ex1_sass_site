@@ -193,7 +193,6 @@ table.common-table td {
 
 table.common-table td.hover {
   /*script로 사용할 class 추가*/
-  background: #fcfadc;
 }
 
 table.common-table td:nth-child(3) {
@@ -205,7 +204,8 @@ table.common-table tr {
 }
 
 table.common-table tr:not(:first-child):hover {
-  background: #fcfadc;
+  background-color: #fcfadc;
+  font-size: 20px;
 }
 
 #map {
