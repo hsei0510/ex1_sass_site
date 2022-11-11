@@ -213,7 +213,8 @@ table.common-table tr:not(:first-child):hover {
 }
 
 #map .marker-title {
-  color: red;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #wrap {
