@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixin.css",
+	"sources": [
+		"../scss/mixin.scss"
+	],
+	"sourcesContent": [
+		"//mixin\r\n// @mixin btnBorderRadius {\r\n//   box-sizing: border-box;\r\n//   border: 1px solid red;\r\n//   border-radius: 5px;\r\n// }\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

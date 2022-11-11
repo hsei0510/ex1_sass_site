@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"//메인 페이지\r\n.mainbanner {\r\n  height: 550px;\r\n  background: url('../img/main_banner.jpg') no-repeat;\r\n  background-size: cover;\r\n}\r\n\r\n.inner {\r\n  &:nth-child(1) {\r\n    margin-top: 50px;\r\n  }\r\n  .box {\r\n    &.items-2 {\r\n      p + a {\r\n        margin-top: 50px;\r\n      }\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,WAAW,CAAC;EACV,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,6BAA6B,CAAC,SAAS;EACnD,eAAe,EAAE,KAAK;CACvB;;;AAED,AACE,MADI,AACH,UAAW,CAAA,CAAC,EAAE;EACb,UAAU,EAAE,IAAI;CACjB;;;AAHH,AAMM,MANA,CAIJ,IAAI,AACD,QAAQ,CACP,CAAC,GAAG,CAAC,CAAC;EACJ,UAAU,EAAE,IAAI;CACjB"
+}

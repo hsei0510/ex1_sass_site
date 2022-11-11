@@ -1,13 +1,18 @@
+/* line 2, ../../../Desktop/ex1_sass_site/assets/scss/main.scss */
 .mainbanner {
   height: 550px;
   background: url("../img/main_banner.jpg") no-repeat;
   background-size: cover;
 }
 
+/* line 9, ../../../Desktop/ex1_sass_site/assets/scss/main.scss */
 .inner:nth-child(1) {
   margin-top: 50px;
 }
 
+/* line 14, ../../../Desktop/ex1_sass_site/assets/scss/main.scss */
 .inner .box.items-2 p + a {
   margin-top: 50px;
 }
+
+/*# sourceMappingURL=main.css.map */

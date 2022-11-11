@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "var.css",
+	"sources": [
+		"../scss/var.scss"
+	],
+	"sourcesContent": [
+		"//site width\r\n$siteWidth: 1320px;\r\n\r\n//text size\r\n$fontSizeSamll: 12px;\r\n$fontSizeNormal: 16px;\r\n$fontSizeMid: 18px;\r\n$fontSizeBig: 21px;\r\n\r\n//title text size\r\n$titleFontSizeSmall: 21px;\r\n$titleFontSizeNormal: 24px;\r\n$titleFontSizeMid: 26px;\r\n$titleFontSizeBig: 32px;\r\n\r\n// color\r\n// background color\r\n$layoutBg: #fff3c4;\r\n$tableBg: #b8944d;\r\n$tableSellBg:#fcfadc; //#f0c87a;\r\n\r\n// font color\r\n$fontColorBasic: #666666;\r\n$fontColorPrimary: #b8944d;\r\n$fontColorHover: #e3a936;\r\n\r\n//border color\r\n$borderColorPrimary: #b8944d;\r\n$borderBgColor: #997939;\r\n\r\n//button color\r\n$gbtnColor: #b8944d;\r\n$gbtnColorHover: #e3a936;\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
