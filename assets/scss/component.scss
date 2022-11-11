@@ -306,6 +306,10 @@ table {
 }
 
 //kakao maps
-.marker-title {
-  color: red;
+#map {
+  margin-top: 50px;
+  .marker-title {
+    color: red;
+  }
+
 }
