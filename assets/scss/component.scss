@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //component
 .box {
   display: flex;
@@ -150,3 +151,157 @@ table {
     }
   }
 }
+=======
+//component
+.box {
+  display: flex;
+  &.items-2 {
+    .items {
+      flex: 50%;
+    }
+  }
+  .items {
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: $fontSizeMid;
+    flex: 100%;
+    flex-shrink: 0;
+    .title {
+      font-size: $titleFontSizeMid;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//gallery
+#gallery-box-wrap {
+  #gallery-box {
+    position: relative;
+    width: 600px;
+    margin: 20px auto;
+    #navi {
+      position: relative;
+      width: 600px;
+      overflow: hidden;
+      ul {
+        li {
+          width: 120px;
+          float: left;
+          img {
+            width: 100%;
+            border: 3px solid white;
+          }
+        }
+      }
+      .page-wrap {
+        width: 1800px;
+        .page {
+          float: left;
+          overflow: hidden;
+        }
+      }
+    }
+    .navi-wrap {
+      position: relative;
+      & > img {
+        position: absolute;
+        top: 50%;
+        z-index: 500;
+        cursor: pointer;
+        &.next {
+          right: 0;
+          transform: translate( 100%, -50% );
+        }
+        &.prev {
+          left: 0;
+          transform: translate( -100%, -50% );
+        }
+      }
+    }
+    #main {
+      width: 600px;
+      height: 450px;
+      float: right;
+      img {
+        position: absolute;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//accordion
+.accordion {
+  dl {
+    // width: 800px;
+    margin: 50px auto;
+    dt {
+      text-indent: 1em; /* 텍스트인덴트 = 들여쓰기, em은 상대적단위 폰트사이즈에 맞춰서 반응함*/
+      font-size: 18px;
+      color: #fff;
+      line-height: 35px;
+      height: 35px;
+      background: $tableBg;
+      cursor: pointer;
+    }
+    dd {
+      margin: 0px;
+      height: 300px;
+      background: $tableSellBg;
+      p {
+        margin: 0px;
+        /* text-indent: 1.25em; */
+        padding: 20px;
+      }
+    }
+  }
+}
+
+//table
+//common table
+table {
+  & + .gbtn {
+    margin-top: 20px;
+  }
+  &.common-table{
+    width: 100%;
+    margin: 50px auto 0;
+    border-collapse: collapse; //표에 띄워진 부분을 붙여주는것!
+    text-align: center; //내꺼
+    th,td {
+      padding: 15px;
+      font-size: $fontSizeNormal;
+      // text-align: left; //쌤꺼
+      vertical-align: middle;
+      height: 30px;
+    }
+    th {
+      font-weight: 500;
+      color: #fff;
+      background: $tableBg;
+    }
+    td {
+      font-weight: 300;
+      color: $fontColorBasic;
+      border-bottom: 1px solid $borderColorPrimary;
+      &.hover { /*script로 사용할 class 추가*/
+        background: $tableSellBg;
+      }
+      &:nth-child(3) {
+        text-align: left;
+      }
+    }
+    tr {
+      /*첫번째 테이블 속성의 타이틀 영역을 제외한 hover 효과 주기*/
+      &:not(:first-child):hover {
+        background: $tableSellBg;
+      }
+      // &:nth-child(odd) {
+      //   background: #f2f2f2;
+      // }
+    }
+  }
+}
+>>>>>>> 90a68c32036f7734b3c67bc4b7fb32ea193d2d70
