@@ -1,0 +1,19 @@
+//메인 페이지
+.mainbanner {
+  height: 550px;
+  background: url('../img/main_banner.jpg') no-repeat;
+  background-size: cover;
+}
+
+.inner {
+  &:nth-child(1) {
+    margin-top: 50px;
+  }
+  .box {
+    &.items-2 {
+      p + a {
+        margin-top: 50px;
+      }
+    }
+  }
+}

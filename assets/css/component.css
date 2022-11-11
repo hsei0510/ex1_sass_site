@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+}
+
+.box.items-2 .items {
+  flex: 50%;
+}
+
+.box .items {
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.box .items img {
+  width: 100%;
+}
