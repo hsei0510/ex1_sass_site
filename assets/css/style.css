@@ -205,7 +205,6 @@ table.common-table tr {
 
 table.common-table tr:not(:first-child):hover {
   background-color: #fcfadc;
-  font-size: 20px;
 }
 
 #map {
